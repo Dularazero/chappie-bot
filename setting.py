@@ -1,14 +1,14 @@
 import os
 proxy = {}
-author = [os.environ.get("AUTHOR", "6283172366463")+"@c.us"]
-BotName = "Krypton-Bot" #profile_name
-prefix = "!"
+author = [os.environ.get("AUTHOR", "447520622503")+"@c.us"]
+BotName = "LISA 🦄 -BOT" #profile_name
+prefix = "/"
 server = "http://sticker-database.herokuapp.com"
 #server = "http://127.0.0.1:8000"
 MenuList=lambda prefix, BotNamex, author, name:f"""
 ─────「 {BotNamex} 」─────
 
-Hai, {name}! 👋️
+HEllO., {name}! 👋️
 
 ╭────「 INFO BOT 」──────
 │
@@ -35,11 +35,7 @@ Hai, {name}! 👋️
 │+ {prefix}fdeface
 │
 ╰────────────────────
-╭────「 ISLAM 」 ───────
-│
-│+ {prefix}quran
-│
-╰────────────────────
+
 ╭──「 INSTA FILTER」 ───
 │
 │+ {prefix}ifilter _1977
